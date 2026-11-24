@@ -12,6 +12,13 @@ Binary search on the candidate distance d. Feasibility — "can c cows be placed
 
 **Complexity:** O(n log n + n log(range)) time, O(n) for the sorted copy.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
